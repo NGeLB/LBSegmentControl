@@ -102,10 +102,6 @@
 				A416A6921DACCCA400DF05F0 /* ViewControllers */,
 				A416A68E1DACCC8400DF05F0 /* 滑动分栏控制器 */,
 				A416A68A1DACCC7200DF05F0 /* 静止分栏控制器 */,
-				A416A6641DACCC4F00DF05F0 /* Main.storyboard */,
-				A416A6671DACCC4F00DF05F0 /* Assets.xcassets */,
-				A416A6691DACCC4F00DF05F0 /* LaunchScreen.storyboard */,
-				A416A66C1DACCC4F00DF05F0 /* Info.plist */,
 				A416A65B1DACCC4F00DF05F0 /* Supporting Files */,
 			);
 			path = LBSegmentControlDemo;
@@ -114,6 +110,10 @@
 		A416A65B1DACCC4F00DF05F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A416A6641DACCC4F00DF05F0 /* Main.storyboard */,
+				A416A6671DACCC4F00DF05F0 /* Assets.xcassets */,
+				A416A6691DACCC4F00DF05F0 /* LaunchScreen.storyboard */,
+				A416A66C1DACCC4F00DF05F0 /* Info.plist */,
 				A416A65C1DACCC4F00DF05F0 /* main.m */,
 			);
 			name = "Supporting Files";

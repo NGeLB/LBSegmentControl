@@ -1,10 +1,9 @@
-//
-//  ScrollSegmentControl.h
-//  LBSegmentControl
-//
-//  Created by 你个LB on 16/10/11.
-//  Copyright © 2016年 NGeLB. All rights reserved.
-//
+// 开发者: NGeLB
+// QQ交流群: 572296164
+// GitHub 代码地址:https://github.com/NGeLB/LBSegmentControl
+
+
+
 
 #import <UIKit/UIKit.h>
 

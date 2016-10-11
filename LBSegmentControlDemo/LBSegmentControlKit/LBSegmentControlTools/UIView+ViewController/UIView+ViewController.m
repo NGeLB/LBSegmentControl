@@ -1,10 +1,9 @@
-//
-//  UIView+ViewController.m
-//  WXMovie
-//
-//  Created by zsm on 14-4-21.
-//  Copyright (c) 2014年 zsm. All rights reserved.
-//
+// 开发者: NGeLB
+// QQ交流群: 572296164
+// GitHub 代码地址:https://github.com/NGeLB/LBSegmentControl
+
+
+
 
 #import "UIView+ViewController.h"
 

@@ -1,10 +1,9 @@
-//
-//  LBBannerViewConst.m
-//  TurnPageTest
-//
-//  Created by 你个LB on 16/9/21.
-//  Copyright © 2016年 你个LB. All rights reserved.
-//
+// 开发者: NGeLB
+// QQ交流群: 572296164
+// GitHub 代码地址:https://github.com/NGeLB/LBSegmentControl
+
+
+
 
 #import <UIKit/UIKit.h>
 
