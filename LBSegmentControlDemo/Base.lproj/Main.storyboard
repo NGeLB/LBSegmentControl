@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EOh-cK-aJE">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--滑动分栏控制器-->
+        <scene sceneID="5zL-eJ-scv">
+            <objects>
+                <viewController id="JOO-gK-T3H" customClass="ScrollSegmentControl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8gw-dK-qnk"/>
+                        <viewControllerLayoutGuide type="bottom" id="iGU-YW-tUG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GaX-cq-97c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="滑动分栏控制器" id="LmU-fX-ThA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="llS-9i-HeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83" y="506"/>
+        </scene>
+        <!--静止分栏控制器-->
+        <scene sceneID="hL5-YS-vyw">
+            <objects>
+                <viewController id="zn8-Mj-haP" customClass="StaticSegmentControl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DEb-xB-rIP"/>
+                        <viewControllerLayoutGuide type="bottom" id="1P8-d3-8UN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pwc-UE-0BY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="静止分栏控制器" id="VDr-ec-KRu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ppx-xU-iEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83" y="-148"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rEj-Q3-58b">
+            <objects>
+                <tabBarController id="EOh-cK-aJE" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iPE-Ho-Ybl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zn8-Mj-haP" kind="relationship" relationship="viewControllers" id="i4G-di-4KY"/>
+                        <segue destination="JOO-gK-T3H" kind="relationship" relationship="viewControllers" id="0GO-W3-0vp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5h-5s-rMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1036" y="177"/>
+        </scene>
+    </scenes>
+</document>
