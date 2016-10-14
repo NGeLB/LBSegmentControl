@@ -1,10 +1,9 @@
-//
-//  LBSegementView.m
-//  LBKitDemo
-//
-//  Created by 你个LB on 16/10/1.
-//  Copyright © 2016年 你个LB. All rights reserved.
-//
+// 开发者: NGeLB
+// QQ交流群: 572296164
+// GitHub 代码地址:https://github.com/NGeLB/LBSegmentControl
+
+
+
 
 
 /**
@@ -142,6 +141,9 @@ typedef NS_ENUM(NSInteger, ScrollCtrlViewScrollStatus) {
 - (void)initDefault {
     self.titleNormalColor = segementColor_title_color;
     self.titleSelectColor = segementColor_title_select_color;
+    // 防止在存在导航栏的情况下ScrollView向下偏移64像素
+    UIView * view = [[UIView alloc] init];
+    [self addSubview:view];
 }
 /**
  *  创建标题栏

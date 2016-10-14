@@ -141,6 +141,9 @@ typedef NS_ENUM(NSInteger, ScrollCtrlViewScrollStatus) {
 - (void)initDefault {
     self.titleNormalColor = segementColor_title_color;
     self.titleSelectColor = segementColor_title_select_color;
+    // 防止在存在导航栏的情况下ScrollView向下偏移64像素
+    UIView * view = [[UIView alloc] init];
+    [self addSubview:view];
 }
 /**
  *  创建标题栏
