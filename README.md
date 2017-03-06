@@ -50,7 +50,6 @@
 #### 效果图
 ![](http://p1.bpimg.com/567571/54dbfb91cab5e4af.gif)
 ![](http://p1.bpimg.com/567571/9d187f6872f23a79.gif)
-### LBSegmentControl我会持续更新...。有问题或者更好的建议、可以加QQ群: 572296164
 
 
 
